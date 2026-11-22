@@ -19,10 +19,6 @@ lots.push({id:"dennyridge",address:"0 Denny Ridge Rd",price:25000,acres:2.26,par
 
 homes.push({address:"78 Blue Pine Ct, Bent Tree",price:329000,date:"2026-04-24",sqft:1790,beds:3,baths:2,source:"https://orchard.com/homes/details/78-blue-pine-ct-jasper-ga-30143",near:["dennyridge"]},{address:"103 Sunrise Ter, Bent Tree",price:465000,date:"2026-09",sqft:3220,beds:3,baths:3,source:"https://www.exprealty.com/jasper-ga-real-estate/bent-tree/103-sunrise-ter",near:["dennyridge"]});
 
-lots.push({id:"dennyridge",address:"0 Denny Ridge Rd",price:25000,acres:2.26,parcel:"024D 088",mls:"10723904",terrain:"MLS lot attributes: Level",listing:"https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904",origin:"discovered",addr2:"Jasper, GA 30143 · Bent Tree",imagesNote:"Listing photos from the Georgia MLS. Parcel lines are not drawn; Pickens County GIS has not been checked for this lot yet."});
-
-homes.push({address:"78 Blue Pine Ct, Bent Tree",price:329000,date:"2026-04-24",sqft:1790,beds:3,baths:2,source:"https://orchard.com/homes/details/78-blue-pine-ct-jasper-ga-30143",near:["dennyridge"]},{address:"103 Sunrise Ter, Bent Tree",price:465000,date:"2026-09",sqft:3220,beds:3,baths:3,source:"https://www.exprealty.com/jasper-ga-real-estate/bent-tree/103-sunrise-ter",near:["dennyridge"]});
-
 export const researchLinks=[["Cherokee County GIS","https://cherokeega.com/gis/"],["County 2023 contours","https://gis.cherokeecountyga.gov/arcgis/rest/services/Contours_Intermediate_2023/MapServer"],["USGS National Map","https://apps.nationalmap.gov/viewer/"],["FEMA flood map","https://msc.fema.gov/"],["Lake Arrowhead fee schedule","https://www.lakearrowheadclub.net/images/7-LAH_2026_Fee_Schedule.pdf"]];
 
 export const researchLinksExtra=[["Lake Arrowhead Utility Co. (water)","https://lakearrowheadutility.com/"],["Cherokee County tax & millage","https://www.cherokeecountytax.com/property.html"],["USDA Web Soil Survey","https://websoilsurvey.nrcs.usda.gov/app/"],["USFWS Wetlands Mapper","https://www.fws.gov/program/national-wetlands-maps/wetlands-mapper"],["LA 2026 construction application","https://lakearrowheadclub.net/images/APPLICATION_FOR_CONSTRUCTION_2026.pdf"],["LA design guidelines (Phase I)","http://www.lakearrowheadclub.net/images/membership-document-forms/DevelopmentDesign-GuidelinesLAC20122018-10-10.pdf"]];
@@ -1077,84 +1073,6 @@ lotResearch["dennyridge"]={
  }
 };
 
-lotResearch["dennyridge"]={
- "Listing::Listing status": {
-  "value": "Active",
-  "status": "Listing-reported",
-  "source": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- },
- "Listing::Listing agent": {
-  "value": "Cassidy Hulsey",
-  "status": "Listing-reported",
-  "source": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- },
- "Listing::Brokerage": {
-  "value": "BHHS Georgia Properties",
-  "status": "Listing-reported",
-  "source": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- },
- "Identity & legal::Street address": {
-  "value": "0 Denny Ridge Road, Jasper, GA 30143",
-  "status": "Listing-reported",
-  "source": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- },
- "Identity & legal::County": {
-  "value": "Pickens County, Georgia",
-  "status": "Reported",
-  "source": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- },
- "Identity & legal::Parcel number": {
-  "value": "024D 088 (tax ID per listing)",
-  "status": "Listing-reported",
-  "source": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- },
- "Identity & legal::Subdivision": {
-  "value": "Bent Tree (gated community)",
-  "status": "Listing-reported",
-  "source": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- },
- "Zoning & building::Perc / soil test": {
-  "value": "Soil test attached to the MLS listing; obtain and review before any offer",
-  "status": "Listing-reported",
-  "source": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- },
- "Utilities & access::Public water": {
-  "value": "Listing reports water: None. Other Bent Tree listings mention public water, so service to this lot needs verification.",
-  "status": "Conflicting reports",
-  "source": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- },
- "Utilities & access::Public sewer": {
-  "value": "None; Bent Tree homes run on septic (nearby sale listings)",
-  "status": "Reported",
-  "source": "https://orchard.com/homes/details/78-blue-pine-ct-jasper-ga-30143"
- },
- "HOA, tax & costs::Published 2026 vacant-lot HOA dues": {
-  "value": "Reported around $1,000/yr for vacant Bent Tree lots; a 2026 home listing showed $4,558/yr. Verify the current vacant-lot rate.",
-  "status": "Reported",
-  "source": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- },
- "HOA, tax & costs::HOA initiation / transfer fee": {
-  "value": "Another Bent Tree lot listing reported a $1,674 impact fee; verify for this lot",
-  "status": "Reported",
-  "source": "https://www.landflip.com/land/427391/64-acre-in-bent-tree-community-pickens-ga"
- },
- "HOA, tax & costs::Historical annual property tax": {
-  "value": "$2,185 (2024, per listing)",
-  "status": "Listing-reported",
-  "source": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- },
- "Market & neighborhood::Neighborhood amenities": {
-  "value": "Golf, Lake Tamarack, pools, tennis and pickleball, hiking trails, stables, 24/7 gated security (community-published)",
-  "status": "Community-published",
-  "source": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- },
- "Market & neighborhood::Comparable vacant lot sales": {
-  "value": "Nearby asking prices, not closed sales: 2.27 ac Thunder Ridge at $12,999 (reseller) and 0.64 ac Bent Tree lot at $9,900",
-  "status": "Reported",
-  "source": "https://www.landflip.com/land/427391/64-acre-in-bent-tree-community-pickens-ga"
- }
-};
-
 export const lotResearchCustom={
  "pawnee": [
   {
@@ -1216,23 +1134,6 @@ lotResearchCustom["dennyridge"]=[
  }
 ];
 
-lotResearchCustom["dennyridge"]=[
- {
-  "label": "Bent Tree market context",
-  "value": "Broker market report: 45 home sales over 12 months at a $469,000 median; trailing 3-month median $372,500",
-  "status": "Reported",
-  "source": "https://www.jeffcrowecre.com/news/jasper-bent-tree-ga-neighborhood-home-sales-october-2026",
-  "section": "Market & neighborhood"
- },
- {
-  "label": "Next verification steps",
-  "value": "Confirm the Level claim and review the attached soil test with the listing agent (phone only: 706-564-6420), then confirm vacant-lot HOA rate, water service and septic feasibility with Bent Tree",
-  "status": "Open item",
-  "source": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904",
-  "section": "Listing"
- }
-];
-
 export const lotImages={
  pawnee:[
   {src:"/images/lots/33-pawnee-aerial.jpg",title:"Aerial view",desc:"USGS NAIP aerial imagery with the Cherokee County parcel boundary highlighted. The lot is heavily wooded.",source:"USGS National Map + Cherokee County GIS",url:"https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer"},
@@ -1250,51 +1151,6 @@ export const lotImages={
   {src:"/images/lots/45-corner-context.jpg",title:"Parcel map",desc:"Cherokee County parcel map with lot 22N18A 634 highlighted, showing street names and neighboring lot lines in Lake Arrowhead.",source:"Cherokee County GIS parcel map",url:"https://gis.cherokeecountyga.gov/arcgis/rest/services/MainLayers/MapServer"}
  ]
 };
-
-lotImages["dennyridge"]=[
- {
-  "src": "https://gamls-assets.cdn-connectmls.com/pics/57343F3F6480295AE0630401000A8ECA/HD_107239041915763789784962741.JPEG",
-  "title": "Listing photo 1",
-  "desc": "From the Georgia MLS listing for 0 Denny Ridge Rd.",
-  "source": "Georgia MLS",
-  "url": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- },
- {
-  "src": "https://gamls-assets.cdn-connectmls.com/pics/57343F3F6480295AE0630401000A8ECA/HD_107239047009143038326343257.JPEG",
-  "title": "Listing photo 2",
-  "desc": "From the Georgia MLS listing for 0 Denny Ridge Rd.",
-  "source": "Georgia MLS",
-  "url": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- },
- {
-  "src": "https://gamls-assets.cdn-connectmls.com/pics/57343F3F6480295AE0630401000A8ECA/HD_107239047101972702380539524.JPEG",
-  "title": "Listing photo 3",
-  "desc": "From the Georgia MLS listing for 0 Denny Ridge Rd.",
-  "source": "Georgia MLS",
-  "url": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- },
- {
-  "src": "https://gamls-assets.cdn-connectmls.com/pics/57343F3F6480295AE0630401000A8ECA/HD_107239047423522280628239974.JPEG",
-  "title": "Listing photo 4",
-  "desc": "From the Georgia MLS listing for 0 Denny Ridge Rd.",
-  "source": "Georgia MLS",
-  "url": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- },
- {
-  "src": "https://gamls-assets.cdn-connectmls.com/pics/57343F3F6480295AE0630401000A8ECA/HD_107239046566219382298287052.JPEG",
-  "title": "Listing photo 5",
-  "desc": "From the Georgia MLS listing for 0 Denny Ridge Rd.",
-  "source": "Georgia MLS",
-  "url": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- },
- {
-  "src": "https://gamls-assets.cdn-connectmls.com/pics/57343F3F6480295AE0630401000A8ECA/HD_10723904392326394315791189.JPEG",
-  "title": "Listing photo 6",
-  "desc": "From the Georgia MLS listing for 0 Denny Ridge Rd.",
-  "source": "Georgia MLS",
-  "url": "https://www.georgiamls.com/0-denny-ridge-road-jasper-ga-30143/10723904"
- }
-];
 
 lotImages["dennyridge"]=[
  {
