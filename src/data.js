@@ -1034,3 +1034,21 @@ export const lotResearchCustom={
   }
  ]
 };
+
+export const lotImages={
+ pawnee:[
+  {src:"/images/lots/pawnee-aerial.jpg",title:"Aerial view",desc:"USGS NAIP aerial imagery with the Cherokee County parcel boundary highlighted. The lot is heavily wooded.",source:"USGS National Map + Cherokee County GIS",url:"https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer"},
+  {src:"/images/lots/pawnee-contours.jpg",title:"Topography - 2 ft contours",desc:"Cherokee County 2023 two-foot contour survey over dimmed aerial imagery. Labels are elevations in feet; about 50 ft of relief crosses this lot despite the listing calling it level.",source:"Cherokee County GIS 2023 contours + USGS imagery",url:"https://gis.cherokeecountyga.gov/arcgis/rest/services/Contours_Intermediate_2023/MapServer"},
+  {src:"/images/lots/pawnee-context.jpg",title:"Parcel map",desc:"Cherokee County parcel map with lot 22N18 445 highlighted, showing street names and neighboring lot lines in Lake Arrowhead.",source:"Cherokee County GIS parcel map",url:"https://gis.cherokeecountyga.gov/arcgis/rest/services/MainLayers/MapServer"}
+ ],
+ chickasaw:[
+  {src:"/images/lots/chickasaw-aerial.jpg",title:"Aerial view",desc:"USGS NAIP aerial imagery with the Cherokee County parcel boundary highlighted. The lot is heavily wooded.",source:"USGS National Map + Cherokee County GIS",url:"https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer"},
+  {src:"/images/lots/chickasaw-contours.jpg",title:"Topography - 2 ft contours",desc:"Cherokee County 2023 two-foot contour survey over dimmed aerial imagery. Labels are elevations in feet; about 43 ft of relief crosses this lot despite the listing calling it level.",source:"Cherokee County GIS 2023 contours + USGS imagery",url:"https://gis.cherokeecountyga.gov/arcgis/rest/services/Contours_Intermediate_2023/MapServer"},
+  {src:"/images/lots/chickasaw-context.jpg",title:"Parcel map",desc:"Cherokee County parcel map with lot 22N18A 639 highlighted, showing street names and neighboring lot lines in Lake Arrowhead.",source:"Cherokee County GIS parcel map",url:"https://gis.cherokeecountyga.gov/arcgis/rest/services/MainLayers/MapServer"}
+ ],
+ corner:[
+  {src:"/images/lots/corner-aerial.jpg",title:"Aerial view",desc:"USGS NAIP aerial imagery with the Cherokee County parcel boundary highlighted. The lot is heavily wooded.",source:"USGS National Map + Cherokee County GIS",url:"https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer"},
+  {src:"/images/lots/corner-contours.jpg",title:"Topography - 2 ft contours",desc:"Cherokee County 2023 two-foot contour survey over dimmed aerial imagery. Labels are elevations in feet; about 70 ft of relief crosses this lot, the steepest of the three, despite the listing calling it level.",source:"Cherokee County GIS 2023 contours + USGS imagery",url:"https://gis.cherokeecountyga.gov/arcgis/rest/services/Contours_Intermediate_2023/MapServer"},
+  {src:"/images/lots/corner-context.jpg",title:"Parcel map",desc:"Cherokee County parcel map with lot 22N18A 634 highlighted, showing street names and neighboring lot lines in Lake Arrowhead.",source:"Cherokee County GIS parcel map",url:"https://gis.cherokeecountyga.gov/arcgis/rest/services/MainLayers/MapServer"}
+ ]
+};
